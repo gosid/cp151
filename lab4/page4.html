@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">GOSID SEANSUE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="index.html" class="nav-link">Exercise1</a></li>
+                <li class="nav-item"><a href="page2.html" class="nav-link ">Exercise2</a>
+                </li>
+                <li class="nav-item"><a href="page3.html" class="nav-link">Exercise3</a></li>
+                <li class="nav-link active" aria-current="page">Exercise4</a></li>
+                <li class="nav-item"><a href="page5.html" class="nav-link">Exercise5</a></li>
+            </ul>
+        </div>
+
+        </div>
+    </nav>
+    <div class="container my-3">
+        <h1 class="mt-5 pb-3 border-bottom"><br>Person Form</h1>
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            Error Message
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        <form action="">
+            <div class="row mb-2">
+                <div class="col-2">
+                    <label for="" class="form-label">Title</label>
+                    <input type="text" class="form-control" placeholder="Mr.">
+                </div>
+                <div class="col-5">
+                    <label for="" class="form-label">Firstname</label>
+                    <input type="text" class="form-control" placeholder="Chee kin">
+                </div>
+                <div class="col">
+                    <label for="" class="form-label">Lastname</label>
+                    <input type="text" class="form-control" placeholder="Lim">
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="col">
+                    <label for="" class="form-label">Gender</label>
+                    <select name="" id="" class="form-select">
+                        <option value=""></option>
+                        <option value="">Male</option>
+                        <option value="">Female</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <label for="" class="form-label">Date of Birth</label>
+                    <input type="text" class="form-control" placeholder="dd/mm/yyyy">
+                </div>
+            </div>
+            <div class="row border-bottom mb-2">
+                <label for="" class="form-label">Address</label>
+                <div class="row mb-3">
+                    <div class="col">
+                        <input type="text" placeholder="street" class="form-control">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col">
+                        <input type="text" placeholder="city" class="form-control">
+                    </div>
+                    <div class="col">
+                        <input type="text" placeholder="state" class="form-control">
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col">
+                        <input type="text" placeholder="Post Code" class="form-control">
+                    </div>
+                    <div class="col">
+                        <select name="" id="" class="form-select">
+                            <option value="">Country</option>
+                            <option value="">Thai</option>
+                            <option value="">USA</option>
+                            <option value="">Korea</option>
+
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end">
+                    <button type="submit" class="btn btn-primary px-5">Register</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
